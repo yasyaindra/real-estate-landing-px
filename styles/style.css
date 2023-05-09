@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #ffff;
+  color: #3a3a3a;
+}
+
+nav {
+  box-shadow: 1px 0.5px 5px #3a3a3a;
+}
+
+.nav-link {
+  color: #3a3a3a;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.title-header {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.button-header {
+  text-decoration: none;
+  background-color: #f27456;
+  padding: 0.5em 1em;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-weight: bold;
+}
+
+.button-header-alt {
+  text-decoration: none;
+  color: #f27456 !important;
+  font-weight: bold;
+}
+
+.img-header {
+  float: right;
+}
+
+input.input-form,
+input.input-form:focus {
+  border: none;
+  outline: none;
+}
+
+label.label-form {
+  color: #f27456 !important;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section-form {
+  box-shadow: 1px 0.5px 5px #3a3a3a;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.button-about {
+  border: 2.3px solid #f27456;
+  padding: 10px 35px;
+  text-decoration: none;
+  color: #f27456;
+}
+
+.title-section {
+  color: #3a3a3a;
+  font-size: 48px;
+}
+
+.why-us {
+  background-color: #ffe0d8;
+}
+
+.subtitle-section {
+  color: #f27456;
+}
+
+.img-property-section {
+  position: relative;
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 14px;
+}
+
+.text-property-section {
+  position: absolute;
+  padding: 5px 15px;
+  top: 35px;
+  left: 40px;
+  color: white;
+}
+
+.text-property-section > h2 {
+  font-size: 45px;
+  text-shadow: 2px 2px 8px #3a3a3a;
+}
+
+.button-property-section {
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 29px;
+  padding: 10px 25px;
+}
+
+.button-property-section:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #f27456;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.blog-text {
+  color: #474747;
+  margin-top: 10px;
+}
+
+.sidebar-blog {
+  margin-bottom: 25px;
+}
+
+.sidebar-blog .sidebar-blog-title {
+  font-size: 18px;
+}
+
+.sidebar-blog .sidebar-blog-content {
+  font-size: 14px;
+  color: #383838;
+}
+
+.sidebar-blog-link,
+.main-blog-link {
+  text-decoration: none;
+  color: #f27456;
+  border: 2px solid #f27456;
+  padding: 5px 15px;
+}
+
+.sidebar-blog-link:hover,
+.main-blog-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f27456;
+  border: 2px solid #f27456;
+  padding: 5px 15px;
+}
+
+.contact-us {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f27456;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
